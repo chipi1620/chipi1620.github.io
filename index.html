@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>IMI MED | Equipos Médicos en México</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- ========== ENCABEZADO / HEADER ========== -->
+  <header class="main-header">
+    <div class="container">
+      <!-- LOGO DE LA EMPRESA -->
+      <!-- Reemplaza logo.png por tu imagen: colócala en la carpeta "images" -->
+      <img src="images/logo.png" alt="Logo IMI MED" class="logo">
+
+      <!-- NAVEGACIÓN PRINCIPAL -->
+      <nav class="nav">
+        <a href="#nosotros">Nosotros</a>
+        <a href="#servicios">Servicios</a>
+        <a href="#marcas">Marcas</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+
+      <!-- BOTÓN DE CONTACTO -->
+      <a href="#contacto" class="cta-button">Contáctanos</a>
+    </div>
+  </header>
+
+  <!-- ========== SECCIÓN PRINCIPAL / HERO ========== -->
+  <section class="hero">
+    <div class="container">
+      <div class="hero-text">
+        <h1>Soluciones Médicas Profesionales</h1>
+        <p>Expertos en mantenimiento y venta de equipo médico en todo México.</p>
+        <a href="#servicios" class="cta-button">Nuestros Servicios</a>
+      </div>
+
+      <!-- IMAGEN PRINCIPAL -->
+      <!-- Cambia hero-image.jpg por tu imagen en la carpeta "images" -->
+      <div class="hero-img">
+        <img src="images/hemodinamia .jpg" alt="Equipo médico moderno">
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== SECCIÓN NOSOTROS ========== -->
+  <section id="nosotros" class="about">
+    <div class="container">
+      <div class="text">
+        <h2>¿Quiénes Somos?</h2>
+        <p>En IMI MED ofrecemos servicios confiables de mantenimiento, venta y renta de equipos médicos en todo México.
+          Nuestro compromiso es proporcionar a nuestros clientes soluciones técnicas de alta calidad, que garanticen seguridad, eficiencia y continuidad en la atención médica.</p>
+      </div>
+
+      <!-- IMAGEN DE NOSOTROS -->
+      <img src="images/reparacion.jpg" alt="Técnico revisando equipo médico">
+    </div>
+  </section>
+
+  <!-- ========== SECCIÓN SERVICIOS ========== -->
+  <section id="servicios" class="services">
+    <div class="container">
+      <h2>Servicios</h2>
+      <div class="service-cards">
+        <!-- SERVICIO 1: MANTENIMIENTO -->
+        <div class="card">
+          <img src="images/mantenimiento.jpg" alt="Mantenimiento de equipo">
+          <h3>Mantenimiento</h3>
+          <p>Prevención y corrección de fallas en equipos médicos. Servicio técnico profesional en todo el país.</p>
+        </div>
+
+        <!-- SERVICIO 2: VENTA -->
+        <div class="card">
+          <img src="images/Captura.PNG" alt="Venta de equipo">
+          <h3>Venta</h3>
+          <p>Distribuimos equipo nuevo y reacondicionado con garantía y asesoría personalizada.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== SECCIÓN MARCAS ========== -->
+  <section id="marcas" class="brands">
+    <div class="container">
+      <h2>Trabajamos con marcas reconocidas</h2>
+      <div class="brand-logos">
+        <!-- Reemplaza estos logos en carpeta "images" -->
+        <img src="images/phillips.png" alt="Phillips" title="Phillips">
+        <img src="images/siemens.png" alt="Siemens" title="Siemens">
+        <img src="images/drager.png" alt="Omron" title="Omron">
+        <img src="images/mindray.png" alt="Mindray" title="Mindray">
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== SECCIÓN CONTACTO ========== -->
+  <section id="contacto" class="contact">
+    <div class="container">
+      <h2>Contáctanos</h2>
+      <form action="mailto:info@imimed.com" method="POST" enctype="text/plain">
+        <input type="text" name="nombre" placeholder="Nombre completo" required />
+        <input type="email" name="email" placeholder="Correo electrónico" required />
+        <input type="tel" name="telefono" placeholder="Número de teléfono" />
+        <textarea name="mensaje" placeholder="¿En qué podemos ayudarte?" required></textarea>
+        <button type="submit" class="cta-button">Enviar Mensaje</button>
+      </form>
+
+      <!-- REDES SOCIALES -->
+      <div class="socials">
+        <a href="https://www.facebook.com/share/19dofLiGif/" target="_blank" class="social-btn">Facebook</a>
+        <a href="https://wa.me/5219619297841 " target="_blank" class="social-btn">WhatsApp</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== PIE DE PÁGINA / FOOTER ========== -->
+  <footer class="footer">
+    <div class="container">
+      <p>© 2025 IMI MED. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
